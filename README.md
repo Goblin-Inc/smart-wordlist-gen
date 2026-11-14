@@ -1,12 +1,14 @@
 # Smart Wordlist Generator (My_Hydra)
 
-Консольная утилита на **Python** для интеллектуальной генерации комбинаций паролей по ключевым зацепкам (базовое слово, год, спецсимволы) и тестирования безопасности.
+> 🌐 **Language:** **English** | [Русский (README_Ru.md)](README_Ru.md)
 
-## ✨ Возможности
-- 🧠 **Умный комбинатор (`itertools.product`)** — генерирует мутации регистра (`lower`, `capitalize`, `original`), годов и спецсимволов с фильтрацией по минимальной длине (например, >= 8 символов для WPA2).
-- ⚡ **Модульная архитектура** — интерактивный CLI-интерфейс для быстрой генерации целевых словарей.
+A context-aware **Python** CLI utility for generating targeted password permutations from known cues (base words, years, special characters) during authorized security testing.
 
-## 🚀 Запуск
+## ✨ Features
+- 🧠 **Smart Combinator (`itertools.product`)** — generates case mutations (`lower`, `capitalize`, `original`), year suffixes, and special character combinations while filtering by minimum length (e.g., `>= 8` characters for WPA2).
+- ⚡ **Modular CLI Workflow** — interactive command-line interface for rapidly building custom wordlists.
+
+## 🚀 Usage
 
 ```bash
 python3 mini_hydra.py
